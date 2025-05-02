@@ -1,25 +1,26 @@
-# Bitcoin Next-Day Closing Price Prediction
+# Bitcoin Price Prediction
 
-## Problem Statement
-Predict the next-day closing price of Bitcoin using historical price data.
+**Bitcoin Price Prediction** is a machine learning project designed to predict the future price of Bitcoin using historical price data. The model utilizes various machine learning algorithms to analyze trends and make accurate price predictions. The project aims to provide insights into Bitcoin's price movement and assist in making informed investment decisions.
 
-## Approach
-1. **Data Collection**: Historical price data for Bitcoin is obtained from the Kaggle dataset.
-2. **Data Preprocessing**: The data is cleaned, normalized, and split into training and testing sets.
-3. **Feature Engineering**: Past 60 days of closing prices are used as input features.
-4. **Model Building**: An LSTM model is built using TensorFlow/Keras.
-5. **Evaluation**: The model is evaluated using MAE and RMSE, and predictions are plotted against actual prices.
+## Features
 
-## Tools
-- Python Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, TensorFlow/Keras
-- Dataset: Top 10 Cryptocurrencies Historical Dataset from Kaggle
-- Version Control: Git/GitHub
+- **Data Collection**: The project collects historical Bitcoin price data from publicly available APIs.
+- **Data Preprocessing**: It processes the data by cleaning, normalizing, and transforming it for model training.
+- **Machine Learning Models**: The project uses different regression models, including Linear Regression, Random Forest, and others, to predict future Bitcoin prices.
+- **Model Evaluation**: Each model's performance is evaluated using metrics such as Mean Squared Error (MSE) and R-squared score to ensure the best prediction results.
+- **Visualization**: The project generates visual plots to compare predicted vs actual Bitcoin prices, aiding in performance analysis.
+- **Predictions**: It makes predictions for Bitcoin’s future price based on historical data, providing an outlook on market trends.
 
-## How to Run the Code
-1. Clone the repository: `git clone <repository-url>`
-2. Install the required libraries: `pip install -r requirements.txt`
-3. Run the Jupyter notebook: `jupyter notebook Bitcoin_Price_Prediction.ipynb`
+## Technologies Used
 
-## Future Improvements
-- Hyperparameter tuning
-- Incorporating additional features like sentiment analysis
+- **Python**: The core programming language used for data processing and model implementation.
+- **Pandas**: For data manipulation and preprocessing.
+- **Scikit-learn**: For machine learning model implementation.
+- **Matplotlib**: For visualizations of predictions vs. actual prices.
+- **NumPy**: For numerical calculations and array operations.
+
+## How to Run
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/prakhar051/Bitcoin-Price-Prediction.git
